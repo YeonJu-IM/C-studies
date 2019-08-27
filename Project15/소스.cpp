@@ -51,7 +51,7 @@ int main()
 			int z = x & y;
 			for (int k = 31; k >= 0; k--)
 			{
-				printf("%c", ((x & y >> k) & 1) ? '1' : '0');
+				printf("%c", ((z >> k) & 1) ? '1' : '0');
 			}
 			printf("   %d\n", z);
 			puts("");
@@ -85,7 +85,7 @@ int main()
 			int z = x | y;
 			for (int k = 31; k >= 0; k--)
 			{
-				printf("%c", ((x | y >> k) & 1) ? '1' : '0');
+				printf("%c", ((z >> k) & 1) ? '1' : '0');
 			}
 			printf("   %d\n", z);
 			puts("");
@@ -119,7 +119,7 @@ int main()
 			int z = x ^ y;
 			for (int k = 31; k >= 0; k--)
 			{
-				printf("%c", ((x ^ y >> k) & 1) ? '1' : '0');
+				printf("%c", ((z >> k) & 1) ? '1' : '0');
 			}
 			printf("   %d\n", z);
 			puts("");
