@@ -4,19 +4,18 @@
 int main()
 
 {
-	int num;
-	
-	scanf("%d", &num);
+	float a, b, c;
+	float d, e, f;
 
-	printf("%10d\n", num);
-	printf("%010d\n", num);
-	printf("%0+10\n", num);
-	printf("%-10\n", num);
-	printf("%10o\n", num);
-	printf("%0#10o\n", num);
-	printf("%10x\n", num);
-	printf("%0#10x\n", num); 
+	printf("섭씨온도를 소수로 3개 입력하시오.: \n");
+	scanf("%f %f %f ", &a, &b, &c);
+	d = (9.0 / 5.0) * a + 32.0;
+	e = (9.0 / 5.0) * b + 32.0;
+	f = (9.0 / 5.0) * c + 32.0;
 
+	printf("화씨온도는: %4f\n", d);
+	printf("화씨온도는: %4f\n", e);
+	printf("화씨온도는: %4f\n", f);
 	
 
 
