@@ -6,7 +6,7 @@ int main() {
 	double a;
 	double b = 2.204623;
 
-	printf("¹«°Ôkg ÀÔ·Â: ");
+	printf("ë¬´ê²Œkg ìž…ë ¥: ");
 	scanf("%lf", &a);
 
 	printf("%.3f", a * b);
