@@ -14,7 +14,7 @@ int main() {
 	*p = 200;
 	sum += *p;
 
-	printf("sumÀÇ °ªÀº: %d\n", sum);
+	printf("sumì˜ ê°’ì€: %d\n", sum);
 
 	return 0;
 
